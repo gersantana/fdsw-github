@@ -36,7 +36,12 @@ body {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
+}
+
+#mis-trabajos .image-top:hover { 
+  scale: 1.5;
+  z-index: 1;
 }
 
 /* Contacto */

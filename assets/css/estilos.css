@@ -9,10 +9,14 @@ body {
 /* Hero Section */
 
 #hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5) 50%, transparent 70%, transparent 100%), url("../img/photo-hero1.avif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+}
+
+.text-hero { 
+  font-size: 25px;
 }
 
 /* Mis trabajos */

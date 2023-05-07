@@ -19,6 +19,17 @@ body {
   font-size: 25px;
 }
 
+.byrapha { 
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 590px) {
+  .line-button-sm { 
+    border-bottom: solid 1px black;
+  }
+}
+
 /* Mis trabajos */
 
 #mis-trabajos .image-top {
